@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <node pkg="gps_simulator" type="gps_simulator_node" name="gps_simulator_node" output="screen"/>
+
+</launch>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gps_simulator</name>
+  <version>0.1.0</version>
+  <description>A ROS packages to simulate GPS.</description>
+  <maintainer email="flavia.causa@unina.it">Flavia Causa</maintainer>
+  <license>BSD</license>
+  <author email="flavia.causa@unina.it">Flavia Causa</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <!-- Dependencies. -->
+  <depend>roscpp</depend>
+  <depend>nav_msgs</depend>
+
+  <!--cmake_modules dependency required for (find Eigen) command-->
+  <depend>cmake_modules</depend>
+
+</package>
